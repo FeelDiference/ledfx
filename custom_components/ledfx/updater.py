@@ -23,6 +23,7 @@ from homeassistant.helpers.entity import (
     EntityCategory,
     EntityDescription,
 )
+from homeassistant.helpers.device_registry import DeviceEntryType
 from homeassistant.helpers.httpx_client import get_async_client
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 from homeassistant.util import utcnow
